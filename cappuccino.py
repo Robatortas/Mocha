@@ -16,6 +16,6 @@ def decrypt(file):
 for file in os.listdir():
     if file == "mocha.py" or file == "cappuccino.py" or file == "choco.mocha":
         continue
-    if os.path.isFile(file):
+    if os.path.isfile(file):
         decrypt(file)
         
