@@ -8,7 +8,7 @@ files = []
 
 # cwd stands for Current Working Directory // .listdir()
 for file in os.listdir():
-    if(file == "mocha.py" or file == "choco.mocha"):
+    if file == "mocha.py" or file == "choco.mocha":
         continue
     else: files.append(file)
 
