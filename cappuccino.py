@@ -1,6 +1,8 @@
 import os
 from cryptography.fernet import Fernet
 
+# Cappuccino decrypts files for the Mocha RansomWare Project
+
 def getChocoContents():
     with open("choco.mocha", "rb") as choco:
         key = choco.read()

